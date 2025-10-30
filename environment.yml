@@ -1,0 +1,40 @@
+# environment.yml
+
+# Conda environment definition for the HAT-PLL-28nm project.
+#
+# To create this environment, run:
+# > conda env create -f environment.yml
+#
+# To activate the environment, run:
+# > conda activate hat_pll_env
+
+name: hat_pll_env
+
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+
+dependencies:
+  # --- Core ---
+  - python=3.9
+
+  # --- Machine Learning Framework ---
+  - pytorch=1.11.0
+  - torchvision=0.12.0
+  - torchaudio=0.11.0
+  # Uncomment the line below that matches your system's CUDA version if you have an NVIDIA GPU.
+  # This significantly accelerates training. If you don't have a GPU, the CPU version of PyTorch will be used.
+  #- cudatoolkit=11.3 
+
+  # --- Data Handling and Numerics ---
+  - numpy=1.22
+  - pandas=1.4
+
+  # --- Plotting and Visualization ---
+  - matplotlib=3.5
+  - seaborn=0.11 # Recommended for aesthetically pleasing plots
+
+  # --- Notebook Environment ---
+  - jupyterlab=3.4
+  - ipykernel
