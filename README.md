@@ -89,14 +89,7 @@ HAT-PLL-28nm/
 └── README.md # This documentation.
 -   **Why so many files in `src/`?** We have modularized the code for clarity. The `train.py` script acts as the conductor, using the `pll_env` as the stage, the `hat_td3` agent as the actor, and the `reward_function` as the script. The `stochastic_forward_pass` is the "special effect" that makes our agent's training unique.
 
----
 
-
-
-
-
-
----
 
 ## Citation
 
