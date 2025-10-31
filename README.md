@@ -87,6 +87,8 @@ HAT-PLL-28nm/
 ├── environment.yml # Conda environment definition for one-step installation.
 ├── LICENSE # MIT License file.
 └── README.md # This documentation.
+
+```
 -   **Why so many files in `src/`?** We have modularized the code for clarity. The `train.py` script acts as the conductor, using the `pll_env` as the stage, the `hat_td3` agent as the actor, and the `reward_function` as the script. The `stochastic_forward_pass` is the "special effect" that makes our agent's training unique.
 
 
@@ -94,7 +96,7 @@ HAT-PLL-28nm/
 ## Citation
 
 If you use the concepts, methodology, or code from this work in your research, please cite our paper.
-
+```
 ```bibtex
 @article{Jadery2025HAT,
   author  = {Ahmad Jadery and Elias Rachid and Mehdi Ehsanian and Zeinab Hammoud and Adnan Harb},
