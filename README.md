@@ -36,8 +36,8 @@ Open and run the cells in notebooks/analysis.ipynb.
 This notebook will load the pre-computed Monte Carlo data from the data/ directory and regenerate the plots and tables.
 2. Running a New Training Session (Demonstration)
 To demonstrate the training process of the HAT agent on the simplified PLL environment, run the main training script:
-code
-Bash
+
+```bash
 python src/train.py
 (Note: This will run a short training session for demonstration purposes. Full training takes several hours as detailed in the paper.)
 Repository Structure
