@@ -43,21 +43,21 @@ Code
 HAT-PLL-28nm/
 │
 ├── data/
-│   └── monte_carlo_jitter.csv  # Pre-computed data for 1,000 MC jitter samples
+│   └── monte_carlo_jitter.csv    # Pre-computed data for 1,000 MC jitter samples
 │
 ├── notebooks/
-│   └── analysis.ipynb          # Jupyter notebook to reproduce paper figures and tables
+│   └── analysis.ipynb            # Jupyter notebook to reproduce paper figures and tables
 │
 ├── src/
-│   ├── hat_td3.py              # Simplified implementation of the HAT-TD3 agent
-│   ├── stochastic_forward_pass.py # Core function modeling hardware non-idealities
-│   ├── reward_function.py      # Implementation of the PLL reward function
-│   ├── pll_env.py              # Simplified behavioral model of the PLL environment
-│   └── train.py                # Main script to run a training demonstration
+│   ├── hat_td3.py                # Simplified implementation of the HAT-TD3 agent
+│   ├── stochastic_forward_pass.py# Core function modeling hardware non-idealities
+│   ├── reward_function.py        # Implementation of the PLL reward function
+│   ├── pll_env.py                # Simplified behavioral model of the PLL environment
+│   └── train.py                  # Main script to run a training demonstration
 │
-├── environment.yml             # Conda environment definition for one-step installation
-├── LICENSE                     # MIT License file
-└── README.md                   # This file
+├── environment.yml               # Conda environment definition for one-step installation
+├── LICENSE                       # MIT License file
+└── README.md                     # This file
 Citation
 If you use the concepts, methodology, or code from this work in your research, please cite our paper:
 code
