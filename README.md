@@ -21,15 +21,18 @@ You can set up the complete Python environment required to run all the code in t
 ```bash
 conda env create -f environment.yml
 This will create a new Conda environment named hat_pll_env. To activate it, run:
-code
-Bash
+
+```bash
 conda activate hat_pll_env
 Usage
 1. Reproducing Paper Results
 To reproduce the statistical analysis and key figures from the paper (e.g., Fig. 4 - Monte Carlo histogram), you can run the Jupyter notebook provided:
-Activate the Conda environment: conda activate hat_pll_env
-Start Jupyter Lab: jupyter lab
+```bash
+-Activate the Conda environment: conda activate hat_pll_env
+-Generat monti_carlo_jitter data : python generate_data.py
+-Start Jupyter Lab: jupyter lab
 Open and run the cells in notebooks/analysis.ipynb.
+
 This notebook will load the pre-computed Monte Carlo data from the data/ directory and regenerate the plots and tables.
 2. Running a New Training Session (Demonstration)
 To demonstrate the training process of the HAT agent on the simplified PLL environment, run the main training script:
