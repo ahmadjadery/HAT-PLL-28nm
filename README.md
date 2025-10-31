@@ -64,7 +64,8 @@ This script runs a very short training session to demonstrate how the agent lear
 To run the training demo, execute the following command:
 ```bash
 python src/train.py
-```You will see the episodic rewards printed to the console, showing that the agent is learning to improve its performance over time.
+```
+You will see the episodic rewards printed to the console, showing that the agent is learning to improve its performance over time.
 
 ---
 
