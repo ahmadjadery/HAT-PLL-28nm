@@ -67,10 +67,6 @@ python src/train.py
 ```
 You will see the episodic rewards printed to the console, showing that the agent is learning to improve its performance over time.
 
----
-
-
-
 
 ## Code Overview (Repository Structure)
 HAT-PLL-28nm/
