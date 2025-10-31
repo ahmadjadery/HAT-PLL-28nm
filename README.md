@@ -1,6 +1,6 @@
 # HAT-PLL-28nm: A Hardware-Aware Training Framework for Resilient Mixed-Signal Systems
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://doi.org/10.5281/zenodo.17494722)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17494722.svg)](https://doi.org/10.5281/zenodo.17494722)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repository provides the official source code and data for the paper: **"Hardware-Aware Training Methodology for a Resilient Mixed-Signal System: A 28nm Cognitive PLL Design Case Study"**.
 
